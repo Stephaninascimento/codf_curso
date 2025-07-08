@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Luxurious+Script&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+background: radial-gradient(circle,#C5B4E3, #9B6EF3, #2C3E50);
+color: #00050a;
+font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+      background-color:(#C5B4E3)
+}
+header img {
+    width: 350px;
+    height: auto;
+    margin-bottom: 20px;
+}
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+nav a {
+    margin: 0 20px;
+    position: relative;
+    text-decoration: none;
+    color: #D8E9F8;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 5px 12px;
+}
+
+nav a:hover {
+    color: #9465f1;
+    background-color:#C5B4E3;
+    padding: 5px 12px;
+    border-radius: 15px;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+#frase-de-efeito
+{   
+    color: #2C3E50;
+    font-weight: 600;
+    letter-spacing: 1px; 
+    text-shadow: 0px 0px 8px rgba(20, 3, 6, 0.641);
+    font-size: 1.1rem;
+}
+
+h1 {
+      color: 	#2C3E50;
+    font-size: 2.4rem;
+    padding: 20px;
+  
+    font-weight: 400;
+  
+}
+
+p {
+    font-size: 1rem;
+    color: #2C3E50;
+    text-align: center;
+    font-weight: 300rem;
+}
+
+.video-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.video-container {
+    flex: 1 1 400px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    overflow: hidden;
+    border-radius: 8px;
+    background: #2C3E50;
+    box-shadow: 0 4px 6px rgba(93, 81, 81, 0.488);
+}
+
+.video-container:hover {
+    transform: translateY(-5px);
+}
+
+.thumbnail {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s;
+}
+
+.video-container:hover .thumbnail {
+    transform: scale(1.1);
+}
+.video-title {
+    padding: 15px;
+    margin: 0;
+    font-size: 1rem;
+    color: #C5B4E3;
+    transition: color 0.3s ease;
+    text-decoration: underline #9B6EF3;
+}
+#topo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#topo a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #0D0D0D;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+#topo a:hover {
+  color: #B0E0E6;
+}
+
+footer {
+    background-color:#2C3E50;
+    color: #F2E0C9;
+    padding: 20px 0px;
+    text-align: center;
+}
+.audio-only iframe {
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+}
+#porta-magica-container {
+  text-align: center;
+  padding: 20px;
+  animation: fadeIn 2s ease;
+   font-family: "Luxurious Script", cursive;
+}
+
+#porta-magica-container p {
+  font-family: "Luxurious Script", cursive;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 3rem;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+#porta-magica {
+  width: 350px;
+  cursor: pointer;
+  opacity: 0.85;
+  filter: blur(0.8px) drop-shadow(0 0 rgba(255, 255, 255, 0.3));
+  transition: transform 0.4s ease, box-shadow 0.3s ease;
+  border-radius: 25% ;
+  box-shadow: 0 0 10px #927bb9;
+  mix-blend-mode: normal;
+  border: 46px solid transparent;
+  border-image: linear-gradient(45deg,#C5B4E3, #9B6EF3, #2C3E50) 1;
+  border-radius: 30px;
+  filter: drop-shadow(0 0 10px#2C3E50(255, 215, 0, 0.4));
+  transition: all 0.4s ease;
+}
+
+#porta-magica:hover {
+  transform: scale(1.1) rotate(-2deg);
+  box-shadow: 0 0 40px #6744ab;
+  transform: scale(1.05);
+  opacity: 1;
+  filter: blur(0px) drop-shadow(0 0 12px rgba(255, 255, 255, 0.6));
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.8); }
+  to { opacity: 1; transform: scale(1); }
+}
+#porta-magica-container {
+  margin-bottom: -100px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+
+
+#porta-magica {
+  
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+#porta-magica:hover {
+  transform: scale(1.1);
+}

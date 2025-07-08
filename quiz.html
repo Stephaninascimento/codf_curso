@@ -1,46 +1,135 @@
 <!DOCTYPE html>
 <html>
 <head> 
-    <meta name="description" content="Site sobre alice-no-pais-das-maravilhas">
+      <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Alice</title>
+        <meta name="description" content="É um site que mergulha no filme Alice no país das maravilhas.">
+        <meta name="keywords" content="Alice, coelho branco, Alice no país das maravilhas, chapeleiro maluco">
+        <meta name="author" content="CodificADAs IME-USP">
+        <link rel="stylesheet" href="cores.quiz.css">
+        <link rel="icon" type="img/png" href="img/Alic.png">
 <title>Quiz</title>
 </head>
 <body>
 <header>
-    <nav> 
-  
-        <ul>
+    <a href="index.html"> <img src="img/c7383f97-2a59-4674-b028-2946d1fd4694.png" alt="logo"></a>
+            <nav>
+                <a href="elenco.html">Personagens</a>
+                <a href="História.html">Enredo</a>
+                <a href="playlist.html">Músicas</a>
+                <a href="quiz.html">Perguntas</a>
+            </nav>
 
-           <li> <a href="História.html">História</a> </li> 
-           <li> <a href="elenco.html">Elenco</a </li> 
-           <li><a href="playlist.htlm">Playlist</a></li> 
-           <li><a href="quiz.html">Quiz</a></li>
-       </ul>
-
-       </nav>
     
 </header>
 <!--Descrição do quiz--> 
 <main> 
     <section>
         <h1>Descubra sua muiteza! </h1> 
-        <p>Verifique como anda seus conhecimentos sobre o mundo maravilhoso</p> 
+        <p id="frase-de-efeito">Gatos risonhos e coelhos de ternos, venha testar sua muiteza..</p> 
     </section>
     <!--Pergunta 1: --> 
     <section> 
-        <h2>Aonde a família do chapeleiro maluco estava presa?</h2>
+        <h2> Pergunta 1 : Aonde a família do chapeleiro maluco estava presa?</h2>
      <form>
-         <input type="radio" value="pergunta1" name="pergunta1" id="p1"> 
-         <label for="pergunta1"> A)No castelo da rainha</label> 
-         <input type="radio" value="pergunta2" name="pergunta2" id="p2"> 
-         <label for="pergunta2">B) Em um chapéu gigante</label> 
-         <input type="radio" value="pergunta3" name="pergunta3" id="p3"> 
-         <label for="pergunta3">C)Em um formigueiro guardado com a rainha</label> 
-         <input type="radio" value="pergunta4" name="pergunta4" id="p4">
-         <label for="pergunta4">D)Dentro da imaginação do chapeleiro</label>
+         <input type="radio" value="pergunta1a" name="pergunta1a" id="p1a"> 
+         <label for="pergunta1a"> A)No castelo da rainha</label> 
+         <input type="radio" value="pergunta1b" name="pergunta1b" id="p1b"> 
+         <label for="pergunta1b">B) Em um chapéu gigante</label> 
+         <input type="radio" value="pergunta1c" name="pergunta1c" id="p1c"> 
+         <label for="pergunta1c">C)Em um formigueiro guardado com a rainha</label> 
+         <input type="radio" value="pergunta1d" name="pergunta1d" id="p1d">
+         <label for="pergunta1d">D)Dentro da imaginação do chapeleiro</label>
      </form>
     </section>
+    <!--pergunta2-->
+    <section>
+<h2> Pergunta 2 :  Por que a cabeça da Rainha vermelha é grande?</h2>
+     <form>
+         <input type="radio" value="pergunta2a" name="pergunta2a" id="p2a"> 
+         <label for="pergunta2a"> A) genética</label> 
+         <input type="radio" value="pergunta2b" name="pergunta2b" id="p2b"> 
+         <label for="pergunta2b"> B) Doença</label> 
+         <input type="radio" value="pergunta2c" name="pergunta2c" id="p2c"> 
+         <label for="pergunta2c">C) Ela bateu a cabeça depois de correr com uma coroa roubada</label> 
+         <input type="radio" value="pergunta2d" name="pergunta2d" id="p2d">
+         <label for="pergunta2d">D) Ela bateu com a cabeça depois de uma briga com a irmã</label>
+     </form>
+    </section>
+    <!--pergunta3-->
+    <section>
+        <h2>Pergunta 3 :  Qual seu personagem favorito? </h2>
+        <form >
+            <input type="text" name="pergunta3" id="p3" placeholder="Digite aqui a sua resposta:">
+        </form>
+    </section>
+    <!--pergunta4-->
+    <section>
+        <h2>Pergunta 4 : Qual combina mais com a sua personalidade?</h2>
+        <select name="pergunta4" id="p4">
+            <option value="p4a"> <b>A)</b> Maluca, colorida e divertida.</option>
+            <option value="p4b"> <b>B)</b> Curiosa, corajosa e quieta.</option>
+            <option value="p4c"> <b>C)</b> Calma, generosa e apreciadora de um bom chá.</option>
+        </select>
+    </section>
+    <!--pergunta5-->
+    <section>
+         <h2> Pergunta 5 : Como a Alice voltou para casa?</h2>
+     <form>
+         <input type="radio" value="pergunta5a" name="pergunta5a" id="p5a"> 
+         <label for="pergunta5a"> A) Abrindo uma porta</label> 
+         <input type="radio" value="pergunta5b" name="pergunta5b" id="p5b"> 
+         <label for="pergunta5b">B) Bebendo o sangue do jaguadarte</label> 
+         <input type="radio" value="pergunta5c" name="pergunta5c" id="p5c"> 
+         <label for="pergunta5c">C) Matando o jaguadarte</label> 
+         <input type="radio" value="pergunta5d" name="pergunta5d" id="p5d">
+         <label for="pergunta5d">D) Comendo um bolo</label>
+     </form>
+    </section>
+    <!--pergunta6-->
+    <section>
+         <h2> Pergunta 6 : Como o pai da Alice ajudava ela a acordar dos sonhos?</h2>
+     <form>
+         <input type="radio" value="pergunta6a" name="pergunta6a" id="p6a"> 
+         <label for="pergunta6a"> A) Balançando o braço dela</label> 
+         <input type="radio" value="pergunta6b" name="pergunta6b" id="p6b"> 
+         <label for="pergunta6b">B) Beliscando o braço dela</label> 
+         <input type="radio" value="pergunta6c" name="pergunta6c" id="p6c"> 
+         <label for="pergunta6c">C) Não acordava, ela arcordava sozinha</label> 
+         <input type="radio" value="pergunta6d" name="pergunta6d" id="p6d">
+         <label for="pergunta1d">D) Falando alto durante suas reuniões de trabalho</label>
+     </form>
+    </section>
+    <!--respostas-->
+    <section>
+        <h2>Verifique sua muiteza!</h2>
+        <details>
+            <summary>
+                Clique aqui para ver suas respostas... <img src="img/yalice.png" alt="Coelho"
+                style: width="40px">
+            </summary>
+                <ul>
+                    <li> Resposta 1 : <strong>C)</strong></li>
+                    <li> Resposta 2 : <strong>D)</strong></li>
+                    <li> Resposta 5 : <strong>B)</strong></li>
+                    <li> Resposta 6 : <strong>B)</strong></li>
+                </ul>
+        </details>
+    </section>
+    <section>
+        <div id="topo">
+                <a href="#">
+                <span>Volte Para o Topo</span>
+                <img src="img/alice-in.gif" alt="Alice subindo" style="height: 60px;">
+                </a>
+            </div>
+    </section>
+    
 </main>
-<footer></footer>
+<footer>
+    <small>&copy; 2025 Universal Studios. Todos os direitos reservados.</small>
+</footer>
 </body>
 
 

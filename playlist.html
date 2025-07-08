@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Playlist</title>
+        <meta name="description" content="É um site que mergulha no filme Alice no país das maravilhas.">
+        <meta name="keywords" content="Alice, coelho branco, Alice no país das maravilhas, chapeleiro maluco">
+        <meta name="author" content="CodificADAs IME-USP">
+        <link rel="stylesheet" href="cores.playlist.css">
+        <link rel="icon" type="img/png" href="img/Alic.png">
+    </head>
+    <body>
+        <header>
+             <a href="index.html"> <img src="img/c7383f97-2a59-4674-b028-2946d1fd4694.png" alt="logo"></a>
+                <nav>
+                <a href="elenco.html">Personagens</a>
+                <a href="História.html">Enredo</a>
+                <a href="playlist.html">Músicas</a>
+                <a href="quiz.html">Perguntas</a>
+                </nav>
+        </header>
+        <main>
+
+            <p id="frase-de-efeito">O impossível é meraente despossível..</p>
+            <h1>Playlist</h1>
+            <p>Escute todas.</p>
+          <div id="porta-magica-container">
+  <p id="cor">Clique na porta mágica para entrar no mundo de Alice 🎶</p>
+  <img id="porta-magica" src="img/porta-magica.png" alt="Porta mágica de Alice">
+</div>
+
+<iframe
+  id="ytAudio"
+  class="audio-only"
+  src=""
+  allow="autoplay"
+  frameborder="0">
+</iframe>
+
+            <div class="video-gallery">
+                <!--1-->
+                <div  class="video-container">
+                   <a href="https://youtu.be/b1MOyF7S2u0?list=PLCQX4WgwzK9XsiWGP0jz0_2geCHqhqE-a" target="_blank">
+                    <div class="thumbnail" style="background-image: url('img/youtube.png');"></div>
+                    <p class="video-title">Alice</p>
+                    </a> 
+                </div>
+                <!--2-->
+                <div  class="video-container">
+                   <a href="https://youtu.be/hxqVvaQHe80?list=PLCQX4WgwzK9XsiWGP0jz0_2geCHqhqE-a" target="_blank">
+                    <div class="thumbnail" style="background-image: url('img/youtube.png');"></div>
+                    <p class="video-title">The poison</p>
+                    </a> 
+                </div>
+                <!--3-->
+                <div  class="video-container">
+                   <a href="https://youtu.be/bmT1ASoCtP0?list=PLCQX4WgwzK9XsiWGP0jz0_2geCHqhqE-a" target="_blank">
+                    <div class="thumbnail" style="background-image: url('img/youtube.png');"></div>
+                    <p class="video-title">The Technicolor Phase</p>
+                    </a> 
+                </div>
+                <!--4-->
+                <div  class="video-container">
+                   <a href="https://youtu.be/OZnruOLY9X4" target="_blank">
+                    <div class="thumbnail" style="background-image: url('img/youtube.png');"></div>
+                    <p class="video-title">Where's my angel</p>
+                    </a> 
+                </div>
+                <!--5-->
+                <div  class="video-container">
+                   <a href="https://youtu.be/C7bqTGWlKlk?list=PLCQX4WgwzK9XsiWGP0jz0_2geCHqhqE-a" target="_blank">
+                    <div class="thumbnail" style="background-image: url('img/youtube.png');"></div>
+                    <p class="video-title">Follow mw down</p>
+                    </a> 
+                </div>
+                <!--6-->
+                <div  class="video-container">
+                   <a href="https://youtu.be/nliGExzgcas?list=PLCQX4WgwzK9XsiWGP0jz0_2geCHqhqE-a" target="_blank">
+                    <div class="thumbnail" style="background-image: url('img/youtube.png');"></div>
+                    <p class="video-title">Strange</p>
+                    </a> 
+                </div>
+             </div>
+                  <div id="topo">
+                    <a href="#">
+                    <span>Volte Para o Topo</span>
+                    <img src="img/alice-in.gif" alt="Alice subindo" style="height: 60px;">
+                    </a>
+                </div>       
+        </main>
+        <footer>
+            <small>&copy; 2025 Universal Studios. Todos os direitos reservados.</small>
+        </footer>
+        <script>
+document.getElementById("porta-magica").addEventListener("click", function () {
+  const iframe = document.getElementById("ytAudio");
+  iframe.src = "https://www.youtube.com/embed/yPjlCza7JHI?autoplay=1&mute=0&loop=1&playlist=yPjlCza7JHI";
+  document.getElementById("porta-magica-container").style.display = "none";
+});
+</script>
+    </body>
+
+
+
+
+
+</html>
