@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Luxurious+Script&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+background: radial-gradient(circle, #b14c66, #884ca8, #f7d9d0);
+color: #00050a;
+font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  
+}
+header {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 35px;
+      background-color: #e00e694f;
+}
+header img {
+    width: 350px;
+    height: auto;
+    margin-bottom: 20px;
+}
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+nav a {
+    margin: 0 20px;
+    position: relative;
+    text-decoration: none;
+    color: 			#dcd5e8;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 5px 12px;
+}
+nav a:hover {
+    color:		#C5B4E3 ;
+    background-color: 	#9465f162;
+    padding: 5px 12px;
+    border-radius: 20px;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+#frase-de-efeito
+{   
+    color: #f1ebefc3;
+    font-weight: 400;
+    letter-spacing: 0.1rem; 
+    text-shadow: 0px 0px 8px rgb(216, 10, 127);
+    font-size: 1.6rem;
+    font-family: "Luxurious Script", cursive;
+    font-style: italic;
+    
+    
+}
+h1 {
+      color: #18044d;
+    font-size: 2.4rem;
+    padding: 40px;
+    
+    font-weight: 100;
+  
+}
+.listagem-de-conteudo{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 7px;
+}
+.listagem-de-conteudo a{
+     text-align: center;
+    text-decoration: none;
+    color: #D8E9F8;
+    background-color:#9465f1;
+    padding: 5px 12px;
+    border-radius: 15px;
+    transition: all 0.5s;
+    font-weight: 400;
+}
+
+.listagem-de-conteudo a:hover{
+    color: #884ca8;
+    background-color: #C5B4E3;
+}
+h2{
+     padding: 35px 0;
+     color: #00060b;
+}
+#imgj{
+    width: 480px;
+    height: 450px;
+    border: 10px solid;
+    border-image: linear-gradient(145deg, #c87194, #a376c4, #c30262ee) 1;
+    border-radius: 12px;
+    padding: 5px;
+    background-color: rgb(127, 9, 78);
+    box-shadow: 0 0 20px rgba(137, 3, 101, 0.926);
+}
+
+
+h3 {
+    color:#3C8DBC;
+    font-weight: 900;
+    font-size: 18px;
+}
+footer {
+    background-color:#2C3E50;
+    color: #F2E0C9;
+    padding: 20px 0px;
+    text-align: center;
+}
+#topo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#topo a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #0D0D0D;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+#topo a:hover {
+  color: #B0E0E6;
+}
+ul, ol {
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+li {
+    margin: 5px 0px;
+  }
+  
+h1, h2 {
+  font-family: "EB Garamond", serif;
+  font-style: italic;
+  font-weight: 600;
+  color: #18044d;
+}
+main article p {
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.5;
+  text-align: justify;
+  padding: 10px;
+}
+/* Borda suave e arredondada */
+table {
+  width: 100%;
+  border-collapse: collapse; /* Remove os espaços entre as células */
+  border-radius: 10px;
+  overflow: hidden; /* Para a borda arredondada funcionar corretamente */
+  box-shadow: 0 0 20px rgba(145, 85, 190, 0.3);
+  margin-top: 20px;
+}
+
+/* Estilo do cabeçalho */
+thead th {
+  background: linear-gradient(145deg, #b967ad, #a17cc9);
+  color: #fff;
+  padding: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Estilo das células do corpo */
+tbody td {
+  padding: 12px;
+  background-color: #f9f2ff;
+  color: #3d2a4d;
+  border-bottom: 1px solid #d2b4f2;
+}
+
+/* Zebra striping */
+tbody tr:nth-child(even) {
+  background-color: #f0e6fb;
+}
+
+/* Efeito ao passar o mouse */
+tbody tr:hover {
+  background-color: #e2d3f7;
+  transition: 0.3s;
+}
+
+/* Links dentro da tabela */
+table td a {
+  color: #6b1dbb;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+table td a:hover {
+  text-decoration: underline;
+}
+article #Exposições {
+  background: rgba(255, 255, 255, 0.85);
+  border: 3px solid;
+  border-image: linear-gradient(45deg, #c87194, #a376c4, #c30262ee) 1;
+  border-radius: 20px;
+  padding: 20px 40px;
+  max-width: 600px;
+  margin: 0 auto 50px auto;
+  box-shadow: 0 0 15px rgba(195, 50, 120, 0.6);
+}
+
+article #Exposições h2,
+article #Exposições h3 {
+  font-family: 'Luxurious Script', cursive;
+  color: #884ca8;
+}
+
+article#Exposições ul {
+  list-style: none;
+  padding: 0;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+article#Exposições ul li {
+  background: #f7d9d0cc;
+  border-radius: 12px;
+  padding: 15px 20px;
+  margin: 10px 0;
+  font-weight: 600;
+  color: #5a2e5d;
+  box-shadow: 0 2px 6px rgba(139, 76, 168, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: default;
+}
+
+article#Exposições ul li:hover {
+  background: #9465f1;
+  color: white;
+  box-shadow: 0 4px 12px rgba(148, 101, 241, 0.7);
+  transform: translateY(-5px);
+}
+
+article#Exposições ul li::before {
+  content: "🎩 ";
+  font-size: 1.2rem;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+#cor{
+    font-style: italic;
+    transform: translateY(-5px);
+    
+}
+
+}
+
