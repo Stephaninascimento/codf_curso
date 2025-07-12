@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Luxurious+Script&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+background: radial-gradient(circle, #b14c66, #884ca8, #f7d9d0);
+color: #00050a;
+font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  
+}
+header {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+      background-color: #e00e694f;
+}
+header img {
+    width: 350px;
+    height: auto;
+    margin-bottom: 20px;
+}
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+nav a {
+    margin: 0 20px;
+    position: relative;
+    text-decoration: none;
+    color: 			#dcd5e8;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 5px 12px;
+}
+nav a:hover {
+    color:		#C5B4E3 ;
+    background-color: 	#9465f162;
+    padding: 5px 12px;
+    border-radius: 20px;
+}
+main {
+    padding: 20px;
+    text-align: center;
+}
+#frase-de-efeito
+{   
+    color: #f1ebefc3;
+    font-weight: 400;
+    letter-spacing: 0.1rem; 
+    text-shadow: 0px 0px 8px rgb(216, 10, 127);
+    font-size: 1.6rem;
+    font-family: "Luxurious Script", cursive;
+    font-style: italic;
+    
+    
+}
+h1 {
+      color: #010003;
+    font-size: 2.4rem;
+    padding: 40px;
+    font-weight: 600;
+  
+}
+h2{
+     padding: 35px 0;
+     color: #00060b;
+}
